@@ -35,6 +35,7 @@ namespace ControleCinema.ConsoleApp.ModuloSessao
             this.sala = sala;
             this.filme = filme;
 
+
         }
         public void venderIngresso(int quantidade)
         {
@@ -52,7 +53,7 @@ namespace ControleCinema.ConsoleApp.ModuloSessao
              return "Sessão: " + id + Environment.NewLine +
                 "Filme: " + filme.Titulo + Environment.NewLine +
                 "Sala: " + sala.id + Environment.NewLine +
-                "Quantidade de Ingressos: " + this.IngressosDisponiveis + Environment.NewLine;
+                "Quantidade de Ingressos: " + this.sala.NumeroAssentos + " Disponíveis" + Environment.NewLine;
 
 
         }

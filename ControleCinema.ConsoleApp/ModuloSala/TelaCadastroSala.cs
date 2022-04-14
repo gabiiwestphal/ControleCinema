@@ -99,9 +99,9 @@ namespace ControleCinema.ConsoleApp.ModuloSala
             int capacidade = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Digite o número de assentos da sala: ");
-            int assentos = Convert.ToInt32(Console.ReadLine());
+            int numeroAssentos = Convert.ToInt32(Console.ReadLine());
 
-            return new Sala(capacidade, assentos);
+            return new Sala(capacidade, numeroAssentos);
         }
         public int ObterNumeroRegistro()
         {
